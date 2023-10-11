@@ -1,0 +1,7 @@
+POST url http://localhost:3001/todo/new
+header name: X-Http-Method-Override: NULL
+
+Content-Type: application/json        
+{
+   "text": "Order pizza"
+}
